@@ -14,4 +14,7 @@
   "author": "QQQ",
   "license": "MIT",
   "homepage": "https://github.com/N00bRobloxian09/polytoria-npm"
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
 }
