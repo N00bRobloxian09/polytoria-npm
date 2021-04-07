@@ -1,3 +1,3 @@
 # polytoria-npm
-##### Documentation soon!
-### Meanwhile, you can visit /lib/*.js to learn more
+### Documentation soon!
+##### Meanwhile, you can visit /lib/*.js to learn more
