@@ -1,20 +1,28 @@
 {
   "name": "polytoria-js",
-  "version": "0.1.0",
-  "description": "a node module that gets data from polytoria com lol idk have fun.",
+  "version": "0.0.1",
+  "description": "NPM Package for polytoria.com",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N00bRobloxian09/polytoria-npm.git"
+  },
   "keywords": [
-    "node",
-    "npm",
-    "polytoria"
+    "polytoria",
+    "polytoria-js",
+    "polytoria-api",
+    "node"
   ],
-  "author": "QQQ",
+  "author": "N00bRobloxian09",
   "license": "MIT",
-  "homepage": "https://github.com/N00bRobloxian09/polytoria-npm",
+  "bugs": {
+    "url": "https://github.com/N00bRobloxian09/polytoria-npm/issues"
+  },
+  "homepage": "https://github.com/N00bRobloxian09/polytoria-npm#readme",
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.21.1"
   }
 }

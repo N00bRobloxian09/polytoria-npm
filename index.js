@@ -1,20 +1,5 @@
-const fetch = require('axios');
-
-function user(id, thing) {
-  if(typeof(id) !== 'number') {
-    
-    const url = "https://api.polytoria.com/users/user?id=" + id;
-
-    try {
-        const response = await axios.get(url);
-        const data = response.headers['content-location'];
-        return data.thing;
-    } catch (error) {
-        throw error
-    }
-    
-  }
-  
-}
-
-module.exports = user;
+// made by qqq
+module.exports.users = require("./lib/users.js");
+module.exports.guilds = require("./lib/guilds.js");
+module.exports.games = require("./lib/games.js");
+module.exports.items = require("./lib/item.js");
