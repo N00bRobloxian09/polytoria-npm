@@ -1,2 +1,2 @@
 # polytoria-npm
-lol
+##### Documentation soon!
