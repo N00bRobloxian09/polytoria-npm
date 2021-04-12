@@ -27,5 +27,6 @@ p.users.getByName("Polytoria").then(function (res) {
 ```
 
 ## Changelog
+* 0.0.3 - Changed api endpoints to /v1/
 * 0.0.2 - Added readme file to the package
 * 0.0.1 - Initial release
