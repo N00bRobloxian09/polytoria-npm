@@ -1,7 +1,7 @@
 {
   "name": "polytoria-js",
-  "version": "0.0.1",
-  "description": "NPM Package for polytoria.com",
+  "version": "0.0.3",
+  "description": "NPM Package for polytoria.com, interact with various apis!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,5 +24,6 @@
   "homepage": "https://github.com/N00bRobloxian09/polytoria-npm#readme",
   "dependencies": {
     "axios": "^0.21.1"
-  }
+  },
+  "devDependencies": {}
 }
