@@ -93,6 +93,15 @@ poly.items.getByInstanceId(1944).then(function (res) {
 	console.log("GetItemByInstanceId => "+ res.assetid); //original id
 	console.log("GetItemOwnerByInstanceId => "+ res.userid); //item owner id
 	console.log("GetItemSerialByInstanceId => "+ res.serial); //item owner id
-}).catch(function (e) {
-	console.error(e);
+}).catch(function(err) {
+	console.error(err);
 });
+
+// f(groupId, groupRank, page)(int)
+// poly.guilds.getGuildMembers(12, 1, 1).then(function(res) {
+//	res.forEach((member) => {
+//		console.log("guild member => "+ member.id);
+//	});
+//}).catch(function(err) {
+//	console.error(err);
+//});
