@@ -1,1 +1,1 @@
-its MIT ok 🤣
+MIT Licensing
