@@ -1,4 +1,6 @@
-// made by qqq
+// Respository Owner and Contributor: QQQ
+// Contributor: YetaGeta
+
 module.exports.users = require("./lib/users.js");
 module.exports.guilds = require("./lib/guilds.js");
 module.exports.games = require("./lib/games.js");

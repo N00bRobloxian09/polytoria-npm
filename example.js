@@ -19,7 +19,7 @@ poly.users.getAppearanceById(1).then(function (res) {
 
 // Get latest users (page, limit)
 poly.users.getLatestUsers(0, 1).then(function (res) {
-	res.data.forEach((user) => {
+	res.forEach((user) => {
 		if(user == null) {
 			return;
 		}
@@ -31,7 +31,7 @@ poly.users.getLatestUsers(0, 1).then(function (res) {
 
 // Get user's inventory (user id, show only limiteds, limit, page)
 poly.users.getInventoryById(451, false, 1, 0).then(function (res) {
-	res.data.forEach((item) => {
+	res.forEach((item) => {
 		if(item == null) {
 			return;
 		}
@@ -43,7 +43,7 @@ poly.users.getInventoryById(451, false, 1, 0).then(function (res) {
 
 // Get user's friends -- disabled cuz spam
 /*poly.users.getFriendsById(1).then(function (res) {
-	res.data.forEach((friend) => {
+	res.forEach((friend) => {
 		if(friend == null) {
 			return;
 		}
@@ -93,6 +93,15 @@ poly.items.getByInstanceId(1944).then(function (res) {
 	console.log("GetItemByInstanceId => "+ res.assetid); //original id
 	console.log("GetItemOwnerByInstanceId => "+ res.userid); //item owner id
 	console.log("GetItemSerialByInstanceId => "+ res.serial); //item owner id
-}).catch(function (e) {
-	console.error(e);
+}).catch(function(err) {
+	console.error(err);
 });
+
+// f(groupId, groupRank, page)(int)
+// poly.guilds.getGuildMembers(12, 1, 1).then(function(res) {
+//	res.forEach((member) => {
+//		console.log("guild member => "+ member.id);
+//	});
+//}).catch(function(err) {
+//	console.error(err);
+//});
